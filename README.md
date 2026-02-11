@@ -10,11 +10,8 @@ The trawl survey data are owned by the Connecticut Department of Energy and Envi
 ## Workflow
 Scripts are organized in the order they should be run:
 
-1. 01_prepare_data.R – cleaning and formatting survey data  
-2. 02_spatial_indicators.R – calculation of CG, inertia, positive area, evenness  
-3. 03_changepoint_analysis.R – BCP and PELT detection  
-4. 04_make_figures.R – generation of manuscript figures  
-
+1. 01_spatial_indicators.R - calculation of spatial indicators and figures
+2. 02_changepoint_analysis.R – BCP and PELT detection and figures
 
 ## Contact
 For questions, contact Claire Ober.
